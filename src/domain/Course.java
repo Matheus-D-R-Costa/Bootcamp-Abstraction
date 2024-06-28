@@ -1,26 +1,8 @@
 package domain;
 
-public class Course {
+public class Course extends Content{
 
-    private String title;
-    private String description;
     private Integer workload;
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
 
     public Integer getWorkload() {
         return workload;
@@ -31,11 +13,17 @@ public class Course {
     }
 
     @Override
+    public double calculateXp() {
+        return DEFAULT_XP * workload / 2;
+    }
+
+    @Override
     public String toString() {
         return "Course{" +
-                "title='" + title + '\'' +
-                ", description='" + description + '\'' +
+                "title='" + getTitle() + '\'' +
+                ", description='" + getDescription() + '\'' +
                 ", workload=" + workload +
                 '}';
     }
+
 }

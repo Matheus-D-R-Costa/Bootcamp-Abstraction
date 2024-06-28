@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e62e03c-1978-4d0d-acee-801cc45d620e" name="Changes" comment="update gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="2e62e03c-1978-4d0d-acee-801cc45d620e" name="Changes" comment="add Mentoring and Course Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bootcamp-Abstraction/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bootcamp-Abstraction/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bootcamp-Abstraction/domain/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bootcamp-Abstraction/domain/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bootcamp-Abstraction/domain/Mentoring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bootcamp-Abstraction/domain/Mentoring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/Mentoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Mentoring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719596792285</updated>
-      <workItem from="1719596795298" duration="1332000" />
+      <workItem from="1719596795298" duration="5604000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <option name="closed" value="true" />
@@ -98,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719597253665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add Mentoring and Course Class">
+      <option name="closed" value="true" />
+      <created>1719598377432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719598377432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="add Mentoring and Course Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Mentoring and Course Class" />
   </component>
 </project>
